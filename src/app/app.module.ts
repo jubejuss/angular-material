@@ -24,6 +24,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { HeroesComponent } from './heroes/heroes.component';
 import { FormsModule } from '@angular/forms';
 import { ButtonOverviewExample } from './button/button.component';
+import { CardFancyExample } from './card/card-fancy-example';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ButtonOverviewExample } from './button/button.component';
     CardComponentComponent,
     HeroesComponent,
     ButtonOverviewExample,
+    CardFancyExample,
   ],
   imports: [
     MatSliderModule,
